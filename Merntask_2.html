@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .list-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+
+      }
+      .list_1{
+        border: 1px solid black;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 40px;
+        font-size: large;
+        font-weight: bold;
+        
+      }
+      .list_2{
+        font-size: large;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="list-container">
+      <ul class="list_1">
+        <h3 style="text-align: end">Lists can be nested(list inside list):</h3>
+        <li class="list_2">Coffee</li>
+        <li class="list_2">
+          Tea
+          <ul>
+            <li>Black tea</li>
+            <li>Green tea</li>
+          </ul>
+        </li class="list_1">
+        <li class="list_2">Milk</li>
+      </ul>
+    </div>
+  </body>
+</html>
