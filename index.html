@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Keerthan Document</title>
+  </head>
+  <body>
+    <style>
+      table {
+        border: 1px solid black;
+        border-collapse: collapse;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        flex-direction: column;
+        border-radius: 10px;
+        background-color: rgb(180, 180, 180);
+      }
+      td,
+      th {
+        border: 1px solid black;
+        padding: 10px;
+      }
+      tr:nth-child(even) {
+        background-color: rgba(121, 15, 208, 0.407);
+      }
+      tr:nth-child(odd) {
+        background-color: rgb(246, 144, 144);
+      }
+      a {
+        text-decoration: none;
+        color: black;
+      }
+    </style>
+    <table>
+      <h4>HTML Task</h4>
+      <tr>
+        <td>Task 1</td>
+        <td>
+          <a href="Merntask_1.html" target="_self">click here</a>
+        </td>
+      </tr>
+      <tr>
+        <td>Task 2</td>
+        <td>
+          <a href="Merntask_2.html">click here</a>
+        </td>
+      </tr>
+      <tr>
+        <td>Task 3</td>
+        <td>
+          <a href="Merntask_3.html">click here</a>
+        </td>
+      </tr>
+      <tr>
+        <td>Task 4</td>
+        <td>
+          <a href="Merntask_4.html">click here</a>
+        </td>
+      </tr>
+      <tr>
+        <td>Task 5</td>
+        <td>
+          <a href="Merntask_5.html">click here</a>
+        </td>
+      </tr>
+    </table>
+      <h4>CSS Task</h4>
+      <table>
+      <tr>
+        <td>Task 1</td>
+        <td>
+          <a href="Merntask_6.html" target="_self">click here</a>
+        </td>
+      </tr>
+      <tr>
+        <td>Task 2</td>
+        <td>
+          <a href="Merntask_7.html">click here</a>
+        </td>
+      </tr>
+      <tr>
+        <td>Task 3</td>
+        <td>
+          <a href="Merntask_8.html">click here</a>
+        </td>
+      </tr>
+      <tr>
+        <td>Task 4</td>
+        <td>
+          <a href="Merntask_9.html">click here</a>
+        </td>
+      </tr>
+      <tr>
+        <td>Task 5</td>
+        <td>
+          <a href="Merntask_10.html">click here</a>
+        </td>
+      </tr>
+      <tr>
+        <td>Task 6</td>
+        <td>
+          <a href="Merntask_11.html">click here</a>
+        </td>
+      </tr>
+      <tr>
+        <td>Task 7</td>
+        <td>
+          <a href="Merntask_12.html">click here</a>
+        </td>
+      </tr>
+      </table>
+      <h4>BS Task</h4>
+      <table>
+      <tr>
+        <td>Task 1</td>
+        <td>
+          <a href="Merntask_13.html">click here</a>
+        </td>
+      </tr>
+      <tr>
+        <td>Task 2</td>
+        <td>
+          <a href="Merntask_14.html">click here</a>
+        </td>
+      </tr>
+      <tr>
+        <td>Task 3</td>
+        <td>
+          <a href="Merntask_15.html">click here</a>
+        </td>
+      </tr>
+      <tr>
+        <td>Task 4</td>
+        <td>
+          <a href="Merntask_16.html">click here</a>
+        </td>
+      </tr>
+      <tr>
+        <td>Task 5</td>
+        <td>
+          <a href="Merntask_17.html">click here</a>
+        </td>
+      </tr>
+      <tr>
+        <td>Task 6</td>
+        <td>
+          <a href="Merntask_18.html">click here</a>
+        </td>
+      </tr>
+    </table>
+    <script>
+      var table = document.getElementsByTagName("table")[0];
+      table.addEventListener("click", function (e) {
+        if (e.target.tagName == "A") {
+          window.open(e.target.href);
+        }
+      });
+    </script>
+  </body>
+</html>
